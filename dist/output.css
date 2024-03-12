@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -764,6 +768,16 @@ video {
   gap: 1rem;
 }
 
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+}
+
+.gap-x-3\.5 {
+  -moz-column-gap: 0.875rem;
+       column-gap: 0.875rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -850,6 +864,10 @@ video {
   padding: 2rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -892,6 +910,10 @@ video {
   padding-left: 1px;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -922,6 +944,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
