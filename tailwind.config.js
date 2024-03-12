@@ -8,6 +8,7 @@ module.exports = {
       'hovercolor':'#FE765E',
       'blackcolor':'#000000',
       'white': '#FFFFFF',
+      'lightgray':'#BFB9BE',
     },
 
     extend: {},
