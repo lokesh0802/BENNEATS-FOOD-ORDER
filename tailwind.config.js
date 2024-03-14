@@ -9,6 +9,7 @@ module.exports = {
       'blackcolor':'#000000',
       'white': '#FFFFFF',
       'blue':'#201B47',
+      'shadow color balck': ' rgba(0, 0, 0, 0.16)',
     },
     extend: {},
   },
