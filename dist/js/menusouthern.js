@@ -8,8 +8,8 @@ document.getElementById("cartbutton").addEventListener("click", function() {
   document.getElementById("menumaggi").addEventListener("click", function() {
     window.location.href = "menumaggi.html"; // Replace "newpage.html" with the path to your new HTML page
   });
-  document.getElementById("menusouthern").addEventListener("click", function() {
-    window.location.href = "menusouthern.html"; // Replace "newpage.html" with the path to your new HTML page
+  document.getElementById("menukaathi").addEventListener("click", function() {
+    window.location.href = "menukaathi.html"; // Replace "newpage.html" with the path to your new HTML page
   });
 
 
