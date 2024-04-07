@@ -1,6 +1,6 @@
 import React from "react";
 import {FaSearch} from "react-icons/fa"
-import header from '../assets/banner.jpg'
+import bannerimage from '../assets/banner.jpg'
 
 const Header = ()=>{
     return(
@@ -40,7 +40,8 @@ const Header = ()=>{
                             </div>
                         </div>
                     </div>
-                    <img src={header} className="h-[28rem] mx-auto justify-end"></img>
+                    <img src={bannerimage}  className="h-[28rem] mx-auto justify-end border rounded-bl-full      " ></img>
+                    
                 </div>
             </div>
         </div>
