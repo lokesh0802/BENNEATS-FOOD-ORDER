@@ -1,6 +1,8 @@
 import React from 'react'
 import sheff from '../assets/cheff.png'
 import cheff from '../assets/chef.png'
+import { Link } from 'react-router-dom'
+
 
 function Service() {
     return (
@@ -20,7 +22,10 @@ function Service() {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non autem sint et sit praesentium laboriosam odio error quia dolore cupiditate.
                     </div>
                     <div className='flex gap-8 items-center'>
+                        <Link to="/about">
                         <button className='bg-red-600 active:scale-90 transition  duration-150 transform hover:shadow-xl shadow-md rounded-full px-8 py-2 text-xl font-medium text-white '>About US</button>
+                        </Link>
+                       
                     </div>
                 </div>
                 </div>

@@ -1,19 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
 import Navbar from './Shared/Navbar'
-import Home from './pages/Home'
+import Footer from './Shared/Footer'
+import { Outlet } from 'react-router-dom'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-    <Navbar/>
-    <Home/>
-    </>
-  )
+    return (
+        <>
+        <Navbar />
+        <Outlet />
+        <Footer />
+        </>
+    )
 }
 
 export default App

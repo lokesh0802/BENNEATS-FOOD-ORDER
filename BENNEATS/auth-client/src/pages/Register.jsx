@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import avater from '../assets/profile.jpg'
 function Register() {
     return (
-        <div className='register'>
+        <div className='register bg-black'>
             <div className='w-full mx-auto pt-[16vh]'>
                 <form className='ease-in mx-auto sm:w-max shadow-sm backdrop-blur-md  rounded-md px-8 py-5 lg:w-max duration-300 w-[80%] bg-white'>
                     <label htmlFor="file-upload " className='custom-file-upload'>

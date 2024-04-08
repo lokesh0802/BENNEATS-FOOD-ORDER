@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "../component/header";
-import ReccommendedFood from "../component/Reccomendedfood";
+import Heeader from "../component/header.jsx";
+import ReecommendedFood from "../component/RecommendedFood.jsx";
+
 import Service from "../component/Service";
-import Footer from "../component/Footer";
+
 
 const Home=()=>{
     return(
         <>
-            <Header/>
-            <ReccommendedFood/>
+            <Heeader />
+            <ReecommendedFood />
             <Service />
-            <Footer />
         </>
     )
 }
