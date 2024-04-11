@@ -1,81 +1,40 @@
 {
-  "name": "@aashutoshrathi/word-wrap",
-  "description": "Wrap words to a specified length.",
-  "version": "1.2.6",
-  "homepage": "https://github.com/aashutoshrathi/word-wrap",
-  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "contributors": [
-    "Aashutosh Rathi <aashutoshrathi@gmail.com>",
-    "Danilo Sampaio <danilo.sampaio@gmail.com> (localhost:8080)",
-    "Fede Ramirez <i@2fd.me> (https://2fd.github.io)",
-    "Joe Hildebrand <joe-github@cursive.net> (https://twitter.com/hildjj)",
-    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
-    "Todd Kennedy (https://tck.io)",
-    "Waldemar Reusch (https://github.com/lordvlad)",
-    "Wolfgang Faust (http://www.linestarve.com)",
-    "Zach Hale <zachhale@gmail.com> (http://zachhale.com)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aashutoshrathi/word-wrap.git"
-  },
-  "bugs": {
-    "url": "https://github.com/aashutoshrathi/word-wrap/issues"
-  },
-  "license": "MIT",
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
-  "main": "index.js",
-  "engines": {
-    "node": ">=0.10.0"
-  },
+  "name": "foodi-client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "mocha"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^10.10.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.19.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "sort-by": "^1.2.0",
+    "swiper": "^11.0.4"
   },
   "devDependencies": {
-    "gulp-format-md": "^0.1.11",
-    "mocha": "^10.2.0"
-  },
-  "keywords": [
-    "break",
-    "carriage",
-    "line",
-    "new-line",
-    "newline",
-    "return",
-    "soft",
-    "text",
-    "word",
-    "word-wrap",
-    "words",
-    "wrap"
-  ],
-  "typings": "index.d.ts",
-  "verb": {
-    "toc": false,
-    "layout": "default",
-    "tasks": [
-      "readme"
-    ],
-    "plugins": [
-      "gulp-format-md"
-    ],
-    "lint": {
-      "reflinks": true
-    },
-    "related": {
-      "list": [
-        "common-words",
-        "shuffle-words",
-        "unique-words",
-        "wordcount"
-      ]
-    },
-    "reflinks": [
-      "verb",
-      "verb-generate-readme"
-    ]
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^4.4.2",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.0"
   }
 }
