@@ -50,7 +50,7 @@ const Navbar = () => {
           <ul className={`p-2 ${isDarkMode ? 'dark' : ''}`}>
             <li>
               <a href="/menu" className={`text-${isDarkMode ? 'dark' : ''} text-white`}>
-                All
+                ALL
               </a>
             </li>
             <li>
@@ -66,7 +66,7 @@ const Navbar = () => {
 
             </li>
             <li>
-            <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-white`}>MAGGIE HOTSPOT</Link>
+            <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-white`}>MAGGI HOTSPOT</Link>
 
             </li>
           </ul>
@@ -184,8 +184,8 @@ const Navbar = () => {
           { 
             user ? <>
            <Profile user={user}/>
-          </> : <button onClick={()=>document.getElementById('my_modal_5').showModal()} className="btn flex items-center gap-2 rounded-full px-6 bg-green text-white">
-            <FaRegUser /> Login
+          </> : <button onClick={()=>document.getElementById('my_modal_5').showModal()} className="btn flex items-center gap-2 rounded-full px-6 bg-[#FE5142] text-white">
+            <FaRegUser /> LOGIN
           </button>
           }
           <Modal/>

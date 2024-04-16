@@ -123,7 +123,7 @@ const Login = () => {
             <div className="form-control mt-4">
               <input
                 type="submit"
-                className="btn bg-green text-white"
+                className="btn bg-red text-white"
                 value="Login"
               />
             </div>
@@ -138,7 +138,7 @@ const Login = () => {
             </p>
           </form>
     <div className="text-center space-x-3">
-        <button onClick={handleRegister} className="btn btn-circle hover:bg-green hover:text-white">
+        <button onClick={handleRegister} className="btn btn-circle hover:bg-red hover:text-white">
           <FaGoogle />
         </button>
         <button className="btn btn-circle hover:bg-green hover:text-white">
