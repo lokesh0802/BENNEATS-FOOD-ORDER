@@ -49,24 +49,24 @@ const Navbar = () => {
           <summary className={`text-${isDarkMode ? 'dark' : ''} text-red`}><b>Menu</b></summary>
           <ul className={`p-2 ${isDarkMode ? 'dark' : ''}`}>
             <li>
-              <a href="/menu" className={`text-${isDarkMode ? 'dark' : ''} text-white`}>
+              <a href="/menu" className={`text-${isDarkMode ? 'dark' : ''} text-black`}>
                 ALL
               </a>
             </li>
             <li>
-              <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-white`}>KATHI</Link>
+              <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-black`}>KATHI</Link>
               
             </li>
             <li>
-            <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-white`}>SOUTHERN</Link>
+            <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-black`}>SOUTHERN</Link>
 
             </li>
             <li>
-            <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-white`}>QUENCH</Link>
+            <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-black`}>QUENCH</Link>
 
             </li>
             <li>
-            <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-white`}>MAGGI HOTSPOT</Link>
+            <Link to="/kathi" className={`text-${isDarkMode ? 'dark' : ''} text-black`}>MAGGI HOTSPOT</Link>
 
             </li>
           </ul>
@@ -77,11 +77,11 @@ const Navbar = () => {
           <summary className={`text-${isDarkMode ? 'dark' : ''} text-red`}> <b>Services</b></summary>
           <ul className={`p-2 ${isDarkMode ? 'dark' : ''}`}>
             <li>
-              <a className={`text-${isDarkMode ? 'text-white' : 'black'} text-white`}>Online Order</a>
+              <a className={`text-${isDarkMode ? 'text-white' : 'black'} text-black`}>Online Order</a>
             </li>
 
             <li>
-              <a className={`text-${isDarkMode ? 'white' : 'black'} text-white`}>Order Tracking</a>
+              <a className={`text-${isDarkMode ? 'white' : 'black'} text-black`}>Order Tracking</a>
             </li>
           </ul>
         </details>

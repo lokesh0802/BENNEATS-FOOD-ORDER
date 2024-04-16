@@ -57,7 +57,7 @@ const AddMenu = () => {
   return (
     <div className="w-full md:w-[870px] mx-auto px-4">
       <h2 className="text-2xl font-semibold my-4">
-        Upload A New <span className="text-green">Menu Item</span>
+        Upload A New <span className="text-red">Menu Item</span>
       </h2>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -128,7 +128,7 @@ const AddMenu = () => {
             />
           </div>
 
-          <button className="btn bg-green text-white px-6">
+          <button className="btn bg-red text-white px-6">
             Add Item <FaUtensils></FaUtensils>
           </button>
         </form>

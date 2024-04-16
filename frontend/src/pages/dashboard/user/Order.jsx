@@ -37,7 +37,7 @@ const Order = () => {
           {/* content */}
           <div className=" text-center px-4 space-y-7">
             <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug">
-              Track Your All<span className="text-green"> Orders</span>
+              Track Your All<span className="text-red"> Orders</span>
             </h2>
           </div>
         </div>
@@ -51,7 +51,7 @@ const Order = () => {
               <div className="overflow-x-auto">
                 <table className="table text-center">
                   {/* head */}
-                  <thead className="bg-green text-white rounded-sm">
+                  <thead className="bg-red text-white rounded-sm">
                     <tr>
                       <th>#</th>
                       <th>Order Date</th>

@@ -70,7 +70,7 @@ header, nav{
 .active{
   text-decoration: underline;
   text-underline-offset: 5px;
-  color: #39DB4A;
+  color: red;
 }
 
 .loading-spinner {

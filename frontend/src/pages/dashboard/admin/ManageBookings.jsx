@@ -65,7 +65,7 @@ const ManageBookings = () => {
   return (
     <div className="w-full md:w-[870px] mx-auto px-4 ">
       <h2 className="text-2xl font-semibold my-4">
-        Manage All <span className="text-green">Bookings!</span>
+        Manage All <span className="text-red">Bookings!</span>
       </h2>
 
       {/* menu items table  */}
@@ -98,7 +98,7 @@ const ManageBookings = () => {
                   </td>
                   <td className="text-center">
                   {item.status === "confirmed" ? "done" :  <button
-                      className="btn bg-green text-white btn-xs text-center"
+                      className="btn bg-red text-white btn-xs text-center"
                       onClick={() => confiremedOrder(item)}
                     >
                       <GiConfirmed />
@@ -132,7 +132,7 @@ const ManageBookings = () => {
           <button
             onClick={() => setCurrentPage(currentPage + 1)}
             disabled={indexOfLastItem >= orders.length}
-            className="btn btn-sm bg-green text-white"
+            className="btn btn-sm bg-red text-white"
           >
             Next  <FaArrowRight/>
           </button>

@@ -67,7 +67,7 @@ const DashboardLayout = () => {
             </label>
 
             {/* login or signout */}
-            <button className="btn flex items-center gap-2 rounded-full px-6 bg-green text-white sm:hidden">
+            <button className="btn flex items-center gap-2 rounded-full px-6 bg-red text-white sm:hidden">
               <FaRegUser /> Logout
             </button>
           </div>

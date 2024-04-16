@@ -126,7 +126,7 @@ const CartPage = () => {
           {/* content */}
           <div className=" text-center px-4 space-y-7">
             <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug">
-              Items Added to The<span className="text-green"> Cart</span>
+              Items Added to The<span className="text-red"> Cart</span>
             </h2>
           </div>
         </div>
@@ -140,7 +140,7 @@ const CartPage = () => {
           <div className="overflow-x-auto">
             <table className="table">
               {/* head */}
-              <thead className="bg-green text-white rounded-sm">
+              <thead className="bg-red text-white rounded-sm">
                 <tr>
                   <th>#</th>
                   <th>Food</th>
@@ -218,14 +218,14 @@ const CartPage = () => {
               Total Price:{" "}
               <span id="total-price">${orderTotal.toFixed(2)}</span>
             </p>
-            <Link to="/process-checkout" className="btn btn-md bg-green text-white px-8 py-1">
+            <Link to="/process-checkout" className="btn btn-md bg-red text-white px-8 py-1">
               Procceed to Checkout
             </Link>
           </div>
         </div>
       </div> : <div className="text-center mt-20">
         <p>Cart is empty. Please add products.</p>
-        <Link to="/menu"><button className="btn bg-green text-white mt-3">Back to Menu</button></Link>
+        <Link to="/menu"><button className="btn bg-red text-white mt-3">Back to Menu</button></Link>
       </div>
       }
       

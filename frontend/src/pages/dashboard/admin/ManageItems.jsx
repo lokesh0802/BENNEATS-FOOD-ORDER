@@ -48,7 +48,7 @@ const indexOfLastItem = currentPage * items_Per_Page;
   return (
     <div className="w-full md:w-[870px] mx-auto px-4 ">
       <h2 className="text-2xl font-semibold my-4">
-        Manage All <span className="text-green">Menu Items!</span>
+        Manage All <span className="text-red">Menu Items!</span>
       </h2>
 
       {/* menu items table  */}
@@ -121,7 +121,7 @@ const indexOfLastItem = currentPage * items_Per_Page;
           <button
             onClick={() => setCurrentPage(currentPage + 1)}
             disabled={indexOfLastItem >= menu.length}
-            className="btn btn-sm bg-green text-white"
+            className="btn btn-sm bg-red text-white"
           >
             Next  <FaArrowRight/>
           </button>

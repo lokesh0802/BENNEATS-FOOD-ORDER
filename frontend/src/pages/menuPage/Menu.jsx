@@ -92,14 +92,13 @@ const Menu = () => {
           {/* content */}
           <div className=" text-center px-4 space-y-7">
             <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug">
-              For the Love of Delicious <span className="text-green">Food</span>
+              For the Love of Delicious <span className="text-red">Food</span>
             </h2>
             <p className="text-[#4A4A4A]  text-xl md:w-4/5 mx-auto">
-              Come with family & feel the joy of mouthwatering food such as
-              Greek Salad, Lasagne, Butternut Pumpkin, Tokusen Wagyu, Olivas
-              Rellenas and more for a moderate cost
+              Come with Friends & feel the joy of mouthwatering food such as
+              Burger , CholeBhature, Maggie, Masala Dosa .
             </p>
-            <button className="bg-green font-semibold btn text-white px-8 py-3 rounded-full">
+            <button className="bg-red font-semibold btn text-white px-8 py-3 rounded-full">
               Order Now
             </button>
           </div>
@@ -111,7 +110,7 @@ const Menu = () => {
         <div className="flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8">
           
            {/* all category buttons */}
-          <div className="flex flex-row justify-start md:items-center md:gap-8 gap-4  flex-wrap">
+          <div className="flex flex-row justify-start md:items-center md:gap-8 gap-4  flex-wrap ">
             <button
               onClick={showAll}
               className={selectedCategory === "all" ? "active" : ""}
@@ -147,14 +146,14 @@ const Menu = () => {
 
             {/* filter options */}
           <div className="flex justify-end mb-4 rounded-sm">
-            <div className="bg-black p-2 ">
+            <div className="bg-[#5D758A] p-2 ">
               <FaFilter className="text-white h-4 w-4" />
             </div>
             <select
               id="sort"
               onChange={(e) => handleSortChange(e.target.value)}
               value={sortOption}
-              className="bg-black text-white px-2 py-1 rounded-sm"
+              className="bg-[#5D758A] text-white px-2 py-1 rounded-sm"
             >
               <option value="default"> Default</option>
               <option value="A-Z">A-Z</option>
@@ -180,7 +179,7 @@ const Menu = () => {
             key={index + 1}
             onClick={() => paginate(index + 1)}
             className={`mx-1 px-3 py-1 rounded-full ${
-              currentPage === index + 1 ? "bg-green text-white" : "bg-gray-200"
+              currentPage === index + 1 ? "bg-red text-white" : "bg-gray-200"
             }  ${isDarkMode ? "dark border" : ""}`}
           >
             {index + 1}
