@@ -11,7 +11,7 @@ const Order = () => {
     enabled: !loading,
     queryFn: async () => {
       const res = await fetch(
-        `http://localhost:8000/payments?email=${user?.email}`,
+        `https://benneats-food-order.onrender.com/payments?email=${user?.email}`,
         {
           headers: {
             authorization: `Bearer ${token}`,

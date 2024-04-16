@@ -16,7 +16,7 @@ const ManageBookings = () => {
     enabled: !loading,
     queryFn: async () => {
       const res = await fetch(
-        `http://localhost:8000/payments/all`,
+        `https://benneats-food-order.onrender.com/payments/all`,
         {
           headers: {
             authorization: `Bearer ${token}`,
