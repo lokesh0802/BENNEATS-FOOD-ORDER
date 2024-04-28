@@ -83,7 +83,7 @@ const indexOfLastItem = currentPage * items_Per_Page;
                     </div>
                   </td>
                   <td>{item.name}</td>
-                  <td>${item.price}</td>
+                  <td>Rs {item.price}</td>
                   <td>
                     <Link to={`/dashboard/update-menu/${item._id}`}>
                       <button className="btn btn-ghost btn-xs bg-orange-500">

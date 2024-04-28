@@ -130,7 +130,7 @@ const Signup = () => {
           <div className="form-control mt-6">
             <input
               type="submit"
-              className="btn bg-green text-white"
+              className="btn bg-red text-white"
               value="Sign up"
             />
           </div>
@@ -145,14 +145,14 @@ const Signup = () => {
         <div className="text-center space-x-3">
           <button
             onClick={handleRegister}
-            className="btn btn-circle hover:bg-green hover:text-white"
+            className="btn btn-circle hover:bg-red hover:text-white"
           >
             <FaGoogle />
           </button>
-          <button className="btn btn-circle hover:bg-green hover:text-white">
+          <button className="btn btn-circle hover:bg-red hover:text-white">
             <FaFacebookF />
           </button>
-          <button className="btn btn-circle hover:bg-green hover:text-white">
+          <button className="btn btn-circle hover:bg-red hover:text-white">
             <FaGithub />
           </button>
         </div>

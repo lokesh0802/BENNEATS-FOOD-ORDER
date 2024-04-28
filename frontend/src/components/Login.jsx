@@ -141,10 +141,10 @@ const Login = () => {
         <button onClick={handleRegister} className="btn btn-circle hover:bg-red hover:text-white">
           <FaGoogle />
         </button>
-        <button className="btn btn-circle hover:bg-green hover:text-white">
+        <button className="btn btn-circle hover:bg-red hover:text-white">
           <FaFacebookF />
         </button>
-        <button className="btn btn-circle hover:bg-green hover:text-white">
+        <button className="btn btn-circle hover:bg-red hover:text-white">
           <FaGithub />
         </button>
       </div>

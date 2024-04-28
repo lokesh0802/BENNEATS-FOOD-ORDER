@@ -102,11 +102,9 @@ const Dashboard = () => {
       {/* stats */}
       <div className="stats shadow flex flex-col md:flex-row">
         <div className="stat bg-emerald-200">
-          <div className="stat-figure text-secondary">
-            <FaDollarSign className="text-3xl"></FaDollarSign>
-          </div>
+          
           <div className="stat-title">Revenue</div>
-          <div className="stat-value">${stats.revenue}</div>
+          <div className="stat-value">Rs{stats.revenue}</div>
           <div className="stat-desc">Jan 1st - Feb 1st</div>
         </div>
 

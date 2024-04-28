@@ -133,7 +133,7 @@ const Modal = () => {
             <div className="form-control mt-4">
               <input
                 type="submit"
-                className="btn bg-green text-white"
+                className="btn bg-red text-white"
                 value="Login"
               />
             </div>
@@ -157,14 +157,14 @@ const Modal = () => {
           <div className="text-center space-x-3 mb-5">
             <button
               onClick={handleRegister}
-              className="btn btn-circle hover:bg-green hover:text-white"
+              className="btn btn-circle hover:bg-red hover:text-white"
             >
               <FaGoogle />
             </button>
-            <button className="btn btn-circle hover:bg-green hover:text-white">
+            <button className="btn btn-circle hover:bg-red hover:text-white">
               <FaFacebookF />
             </button>
-            <button className="btn btn-circle hover:bg-green hover:text-white">
+            <button className="btn btn-circle hover:bg-red hover:text-white">
               <FaGithub />
             </button>
           </div>
